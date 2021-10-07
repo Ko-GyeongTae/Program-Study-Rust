@@ -24,3 +24,7 @@
 
 ### $ cargo update
     Update dependencies
+
+### $ cargo doc --open
+    Create document about dependencies
+    Open document with browser
