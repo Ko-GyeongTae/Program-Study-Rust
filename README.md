@@ -28,3 +28,13 @@
 ### $ cargo doc --open
     Create document about dependencies
     Open document with browser
+
+## Official Guide
+https://rinthel.github.io/rust-lang-book-ko/foreword.html
+
+## Crate community
+https://crates.io
+
+## Framework
+https://actix.rs
+
