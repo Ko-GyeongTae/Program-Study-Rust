@@ -10,3 +10,17 @@
 ### Using Cargo
     - cargo new project_name
     - cd project_name
+
+# Cargo command
+
+### $ cargo build
+    Only Build Project
+
+### $ cargo run
+    Build Project and run binary file
+
+### $ cargo check
+    Build Project faster than $ cargo build, But, don't create binary file
+
+### $ cargo update
+    Update dependencies
