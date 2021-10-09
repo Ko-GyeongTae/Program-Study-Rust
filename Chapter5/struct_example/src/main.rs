@@ -1,3 +1,4 @@
+#[derive(Debug)]
 struct User {
     username: String,
     email: String,
@@ -16,7 +17,7 @@ fn main() {
         sign_in_count: 1,
     };
 
-    let _user2 = User {
+    let user2 = User {
         email: String::from("another@example.com"),
         username: String::from("anotherusername567"),
         ..user1
@@ -32,6 +33,8 @@ fn main() {
     let black = Color(0,0,0);
     let origin = Point(0,0,0);
     
+    println!("user1 is : {:?}", user1);
+    println!("user1 is : {:#?}", user1);
 }
 
 fn build_user(email: String, username: String) -> User {
